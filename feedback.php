@@ -23,7 +23,7 @@
     <h1>Отзывы о нашей работе</h1>
         <div><?
         include "msgshow.php";
-            echo $num;
+           // echo $num;
         ?></div>
     <div>
         <h2>Оставьте ваш отзыв</h2>
