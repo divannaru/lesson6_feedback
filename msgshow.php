@@ -2,7 +2,7 @@
 
 include "config.php";
 
-$sql = "select * from messages ORDER BY time DESC LIMIT 5";
+$sql = "select distinct message, username from messages ORDER BY time DESC LIMIT 5";
 $result = mysqli_query($connect, $sql);
 $num = mysqli_num_rows($result);
 
